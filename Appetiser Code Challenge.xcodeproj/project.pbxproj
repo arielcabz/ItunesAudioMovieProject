@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B45266927B0762A0005F715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45266827B0762A0005F715 /* AppDelegate.swift */; };
+		5B45266B27B0762A0005F715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45266A27B0762A0005F715 /* SceneDelegate.swift */; };
+		5B45267327B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B45267127B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodeld */; };
+		5B45267527B0762C0005F715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B45267427B0762C0005F715 /* Assets.xcassets */; };
+		5B45267827B0762C0005F715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B45267627B0762C0005F715 /* LaunchScreen.storyboard */; };
+		5B45268327B0762C0005F715 /* Appetiser_Code_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45268227B0762C0005F715 /* Appetiser_Code_ChallengeTests.swift */; };
+		5B45268D27B0762C0005F715 /* Appetiser_Code_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45268C27B0762C0005F715 /* Appetiser_Code_ChallengeUITests.swift */; };
+		5B45268F27B0762C0005F715 /* Appetiser_Code_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45268E27B0762C0005F715 /* Appetiser_Code_ChallengeUITestsLaunchTests.swift */; };
+		5B45269D27B077090005F715 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45269C27B077090005F715 /* CoreDataManager.swift */; };
+		5B4526A327B077AA0005F715 /* TrackListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526A227B077AA0005F715 /* TrackListModel.swift */; };
+		5B4526A527B077CE0005F715 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526A427B077CE0005F715 /* TrackListViewController.swift */; };
+		5B4526A727B077ED0005F715 /* TrackListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526A627B077ED0005F715 /* TrackListViewModel.swift */; };
+		5B4526B127B079120005F715 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526B027B079120005F715 /* UIView+Extension.swift */; };
+		5B4526B327B079260005F715 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526B227B079260005F715 /* Date+Extension.swift */; };
+		5B4526B527B0794A0005F715 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526B427B0794A0005F715 /* TrackCell.swift */; };
+		5B4526B827B079700005F715 /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526B727B079700005F715 /* HeartButton.swift */; };
+		5B4526BA27B079F10005F715 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526B927B079F10005F715 /* ApiManager.swift */; };
+		5B4526BF27B07A4C0005F715 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526BE27B07A4C0005F715 /* TrackDetailsViewController.swift */; };
+		5B4526C127B07A990005F715 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526C027B07A990005F715 /* Constants.swift */; };
+		5B4526C327B07C3B0005F715 /* NSManagedObjectContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4526C227B07C3B0005F715 /* NSManagedObjectContext+Extension.swift */; };
+		A08048859C11C0984C4F3A78 /* Pods_Appetiser_Code_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D71615964D5F93E5D844E8 /* Pods_Appetiser_Code_Challenge.framework */; };
+		C6AE1D6A64DFDCDA1CBE4C4B /* Pods_Appetiser_Code_Challenge_Appetiser_Code_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A385DB44539BE32135864B /* Pods_Appetiser_Code_Challenge_Appetiser_Code_ChallengeUITests.framework */; };
+		F28D5C9E99DA31E25B10D868 /* Pods_Appetiser_Code_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2C68A7EC7C81D6054E41EC /* Pods_Appetiser_Code_ChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B45267F27B0762C0005F715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B45265D27B0762A0005F715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B45266427B0762A0005F715;
+			remoteInfo = "Appetiser Code Challenge";
+		};
+		5B45268927B0762C0005F715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B45265D27B0762A0005F715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B45266427B0762A0005F715;
+			remoteInfo = "Appetiser Code Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26A385DB44539BE32135864B /* Pods_Appetiser_Code_Challenge_Appetiser_Code_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetiser_Code_Challenge_Appetiser_Code_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2C68A7EC7C81D6054E41EC /* Pods_Appetiser_Code_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetiser_Code_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B45266527B0762A0005F715 /* Appetiser Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appetiser Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B45266827B0762A0005F715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B45266A27B0762A0005F715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B45267227B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Appetiser_Code_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		5B45267427B0762C0005F715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B45267727B0762C0005F715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B45267927B0762C0005F715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B45267E27B0762C0005F715 /* Appetiser Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appetiser Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B45268227B0762C0005F715 /* Appetiser_Code_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetiser_Code_ChallengeTests.swift; sourceTree = "<group>"; };
+		5B45268827B0762C0005F715 /* Appetiser Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appetiser Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B45268C27B0762C0005F715 /* Appetiser_Code_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetiser_Code_ChallengeUITests.swift; sourceTree = "<group>"; };
+		5B45268E27B0762C0005F715 /* Appetiser_Code_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetiser_Code_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B45269C27B077090005F715 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		5B4526A227B077AA0005F715 /* TrackListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListModel.swift; sourceTree = "<group>"; };
+		5B4526A427B077CE0005F715 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		5B4526A627B077ED0005F715 /* TrackListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewModel.swift; sourceTree = "<group>"; };
+		5B4526B027B079120005F715 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5B4526B227B079260005F715 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		5B4526B427B0794A0005F715 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		5B4526B727B079700005F715 /* HeartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButton.swift; sourceTree = "<group>"; };
+		5B4526B927B079F10005F715 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		5B4526BE27B07A4C0005F715 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		5B4526C027B07A990005F715 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B4526C227B07C3B0005F715 /* NSManagedObjectContext+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extension.swift"; sourceTree = "<group>"; };
+		5C9901359B8618EF527E00A2 /* Pods-Appetiser Code ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetiser Code ChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-Appetiser Code ChallengeTests/Pods-Appetiser Code ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF0F4CF8965416124288E08 /* Pods-Appetiser Code Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetiser Code Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Appetiser Code Challenge/Pods-Appetiser Code Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		8877F232FD71568613E17134 /* Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A631642A125CD12BC83FA8 /* Pods-Appetiser Code ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetiser Code ChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-Appetiser Code ChallengeTests/Pods-Appetiser Code ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6D71615964D5F93E5D844E8 /* Pods_Appetiser_Code_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetiser_Code_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65B40E6B6FD4363EB440427 /* Pods-Appetiser Code Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetiser Code Challenge.release.xcconfig"; path = "Target Support Files/Pods-Appetiser Code Challenge/Pods-Appetiser Code Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		EC2A2CABA7E452BB8434D8EC /* Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B45266227B0762A0005F715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08048859C11C0984C4F3A78 /* Pods_Appetiser_Code_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B45267B27B0762C0005F715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28D5C9E99DA31E25B10D868 /* Pods_Appetiser_Code_ChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B45268527B0762C0005F715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AE1D6A64DFDCDA1CBE4C4B /* Pods_Appetiser_Code_Challenge_Appetiser_Code_ChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B45265C27B0762A0005F715 = {
+			isa = PBXGroup;
+			children = (
+				5B45266727B0762A0005F715 /* Appetiser Code Challenge */,
+				5B45268127B0762C0005F715 /* Appetiser Code ChallengeTests */,
+				5B45268B27B0762C0005F715 /* Appetiser Code ChallengeUITests */,
+				5B45266627B0762A0005F715 /* Products */,
+				82A8E875EEC8EF249E9EBE9E /* Pods */,
+				ABCC78D7A478D10076476F3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B45266627B0762A0005F715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B45266527B0762A0005F715 /* Appetiser Code Challenge.app */,
+				5B45267E27B0762C0005F715 /* Appetiser Code ChallengeTests.xctest */,
+				5B45268827B0762C0005F715 /* Appetiser Code ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B45266727B0762A0005F715 /* Appetiser Code Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526B627B079640005F715 /* Custom Views */,
+				5B4526AF27B078F40005F715 /* Extensions */,
+				5B45269E27B077620005F715 /* Modules */,
+				5B45269B27B076F40005F715 /* Managers */,
+				5B45266827B0762A0005F715 /* AppDelegate.swift */,
+				5B45266A27B0762A0005F715 /* SceneDelegate.swift */,
+				5B4526C027B07A990005F715 /* Constants.swift */,
+				5B45267427B0762C0005F715 /* Assets.xcassets */,
+				5B45267627B0762C0005F715 /* LaunchScreen.storyboard */,
+				5B45267927B0762C0005F715 /* Info.plist */,
+				5B45267127B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodeld */,
+			);
+			path = "Appetiser Code Challenge";
+			sourceTree = "<group>";
+		};
+		5B45268127B0762C0005F715 /* Appetiser Code ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B45268227B0762C0005F715 /* Appetiser_Code_ChallengeTests.swift */,
+			);
+			path = "Appetiser Code ChallengeTests";
+			sourceTree = "<group>";
+		};
+		5B45268B27B0762C0005F715 /* Appetiser Code ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B45268C27B0762C0005F715 /* Appetiser_Code_ChallengeUITests.swift */,
+				5B45268E27B0762C0005F715 /* Appetiser_Code_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Appetiser Code ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		5B45269B27B076F40005F715 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5B45269C27B077090005F715 /* CoreDataManager.swift */,
+				5B4526B927B079F10005F715 /* ApiManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		5B45269E27B077620005F715 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526AD27B078CF0005F715 /* Track List */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		5B45269F27B0776E0005F715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526BE27B07A4C0005F715 /* TrackDetailsViewController.swift */,
+				5B4526A427B077CE0005F715 /* TrackListViewController.swift */,
+				5B4526B427B0794A0005F715 /* TrackCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5B4526A027B0777E0005F715 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526A227B077AA0005F715 /* TrackListModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B4526A127B077870005F715 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526A627B077ED0005F715 /* TrackListViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		5B4526AD27B078CF0005F715 /* Track List */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526A027B0777E0005F715 /* Model */,
+				5B45269F27B0776E0005F715 /* View */,
+				5B4526A127B077870005F715 /* View Model */,
+			);
+			name = "Track List";
+			sourceTree = "<group>";
+		};
+		5B4526AF27B078F40005F715 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526B027B079120005F715 /* UIView+Extension.swift */,
+				5B4526B227B079260005F715 /* Date+Extension.swift */,
+				5B4526C227B07C3B0005F715 /* NSManagedObjectContext+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5B4526B627B079640005F715 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B4526B727B079700005F715 /* HeartButton.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		82A8E875EEC8EF249E9EBE9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF0F4CF8965416124288E08 /* Pods-Appetiser Code Challenge.debug.xcconfig */,
+				D65B40E6B6FD4363EB440427 /* Pods-Appetiser Code Challenge.release.xcconfig */,
+				8877F232FD71568613E17134 /* Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.debug.xcconfig */,
+				EC2A2CABA7E452BB8434D8EC /* Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.release.xcconfig */,
+				5C9901359B8618EF527E00A2 /* Pods-Appetiser Code ChallengeTests.debug.xcconfig */,
+				A1A631642A125CD12BC83FA8 /* Pods-Appetiser Code ChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABCC78D7A478D10076476F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6D71615964D5F93E5D844E8 /* Pods_Appetiser_Code_Challenge.framework */,
+				26A385DB44539BE32135864B /* Pods_Appetiser_Code_Challenge_Appetiser_Code_ChallengeUITests.framework */,
+				4C2C68A7EC7C81D6054E41EC /* Pods_Appetiser_Code_ChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B45266427B0762A0005F715 /* Appetiser Code Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B45269227B0762C0005F715 /* Build configuration list for PBXNativeTarget "Appetiser Code Challenge" */;
+			buildPhases = (
+				6EACD83849E1CF02D58BE777 /* [CP] Check Pods Manifest.lock */,
+				5B45266127B0762A0005F715 /* Sources */,
+				5B45266227B0762A0005F715 /* Frameworks */,
+				5B45266327B0762A0005F715 /* Resources */,
+				FDB799D8ACB26219CB728914 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Appetiser Code Challenge";
+			productName = "Appetiser Code Challenge";
+			productReference = 5B45266527B0762A0005F715 /* Appetiser Code Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B45267D27B0762C0005F715 /* Appetiser Code ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B45269527B0762C0005F715 /* Build configuration list for PBXNativeTarget "Appetiser Code ChallengeTests" */;
+			buildPhases = (
+				3121D7747C222562F2243A8A /* [CP] Check Pods Manifest.lock */,
+				5B45267A27B0762C0005F715 /* Sources */,
+				5B45267B27B0762C0005F715 /* Frameworks */,
+				5B45267C27B0762C0005F715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B45268027B0762C0005F715 /* PBXTargetDependency */,
+			);
+			name = "Appetiser Code ChallengeTests";
+			productName = "Appetiser Code ChallengeTests";
+			productReference = 5B45267E27B0762C0005F715 /* Appetiser Code ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B45268727B0762C0005F715 /* Appetiser Code ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B45269827B0762C0005F715 /* Build configuration list for PBXNativeTarget "Appetiser Code ChallengeUITests" */;
+			buildPhases = (
+				50DA6918047E41E7B4511C38 /* [CP] Check Pods Manifest.lock */,
+				5B45268427B0762C0005F715 /* Sources */,
+				5B45268527B0762C0005F715 /* Frameworks */,
+				5B45268627B0762C0005F715 /* Resources */,
+				8274905FF3095CE8517A2F02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B45268A27B0762C0005F715 /* PBXTargetDependency */,
+			);
+			name = "Appetiser Code ChallengeUITests";
+			productName = "Appetiser Code ChallengeUITests";
+			productReference = 5B45268827B0762C0005F715 /* Appetiser Code ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B45265D27B0762A0005F715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5B45266427B0762A0005F715 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5B45267D27B0762C0005F715 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5B45266427B0762A0005F715;
+					};
+					5B45268727B0762C0005F715 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5B45266427B0762A0005F715;
+					};
+				};
+			};
+			buildConfigurationList = 5B45266027B0762A0005F715 /* Build configuration list for PBXProject "Appetiser Code Challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B45265C27B0762A0005F715;
+			productRefGroup = 5B45266627B0762A0005F715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B45266427B0762A0005F715 /* Appetiser Code Challenge */,
+				5B45267D27B0762C0005F715 /* Appetiser Code ChallengeTests */,
+				5B45268727B0762C0005F715 /* Appetiser Code ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B45266327B0762A0005F715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B45267827B0762C0005F715 /* LaunchScreen.storyboard in Resources */,
+				5B45267527B0762C0005F715 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B45267C27B0762C0005F715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B45268627B0762C0005F715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3121D7747C222562F2243A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appetiser Code ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DA6918047E41E7B4511C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EACD83849E1CF02D58BE777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appetiser Code Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8274905FF3095CE8517A2F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests/Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB799D8ACB26219CB728914 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appetiser Code Challenge/Pods-Appetiser Code Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appetiser Code Challenge/Pods-Appetiser Code Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appetiser Code Challenge/Pods-Appetiser Code Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B45266127B0762A0005F715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4526B127B079120005F715 /* UIView+Extension.swift in Sources */,
+				5B4526C127B07A990005F715 /* Constants.swift in Sources */,
+				5B4526A727B077ED0005F715 /* TrackListViewModel.swift in Sources */,
+				5B45266927B0762A0005F715 /* AppDelegate.swift in Sources */,
+				5B4526B327B079260005F715 /* Date+Extension.swift in Sources */,
+				5B4526C327B07C3B0005F715 /* NSManagedObjectContext+Extension.swift in Sources */,
+				5B4526B827B079700005F715 /* HeartButton.swift in Sources */,
+				5B4526BA27B079F10005F715 /* ApiManager.swift in Sources */,
+				5B4526A527B077CE0005F715 /* TrackListViewController.swift in Sources */,
+				5B4526B527B0794A0005F715 /* TrackCell.swift in Sources */,
+				5B4526BF27B07A4C0005F715 /* TrackDetailsViewController.swift in Sources */,
+				5B45267327B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodeld in Sources */,
+				5B4526A327B077AA0005F715 /* TrackListModel.swift in Sources */,
+				5B45269D27B077090005F715 /* CoreDataManager.swift in Sources */,
+				5B45266B27B0762A0005F715 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B45267A27B0762C0005F715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B45268327B0762C0005F715 /* Appetiser_Code_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B45268427B0762C0005F715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B45268D27B0762C0005F715 /* Appetiser_Code_ChallengeUITests.swift in Sources */,
+				5B45268F27B0762C0005F715 /* Appetiser_Code_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B45268027B0762C0005F715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B45266427B0762A0005F715 /* Appetiser Code Challenge */;
+			targetProxy = 5B45267F27B0762C0005F715 /* PBXContainerItemProxy */;
+		};
+		5B45268A27B0762C0005F715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B45266427B0762A0005F715 /* Appetiser Code Challenge */;
+			targetProxy = 5B45268927B0762C0005F715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B45267627B0762C0005F715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B45267727B0762C0005F715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B45269027B0762C0005F715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B45269127B0762C0005F715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B45269327B0762C0005F715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF0F4CF8965416124288E08 /* Pods-Appetiser Code Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88T9UDW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appetiser Code Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcdev.Appetiser-Code-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B45269427B0762C0005F715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65B40E6B6FD4363EB440427 /* Pods-Appetiser Code Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88T9UDW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appetiser Code Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcdev.Appetiser-Code-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B45269627B0762C0005F715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9901359B8618EF527E00A2 /* Pods-Appetiser Code ChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88T9UDW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcdev.Appetiser-Code-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appetiser Code Challenge.app/Appetiser Code Challenge";
+			};
+			name = Debug;
+		};
+		5B45269727B0762C0005F715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A631642A125CD12BC83FA8 /* Pods-Appetiser Code ChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88T9UDW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcdev.Appetiser-Code-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appetiser Code Challenge.app/Appetiser Code Challenge";
+			};
+			name = Release;
+		};
+		5B45269927B0762C0005F715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8877F232FD71568613E17134 /* Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88T9UDW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcdev.Appetiser-Code-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Appetiser Code Challenge";
+			};
+			name = Debug;
+		};
+		5B45269A27B0762C0005F715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2A2CABA7E452BB8434D8EC /* Pods-Appetiser Code Challenge-Appetiser Code ChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88T9UDW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcdev.Appetiser-Code-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Appetiser Code Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B45266027B0762A0005F715 /* Build configuration list for PBXProject "Appetiser Code Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B45269027B0762C0005F715 /* Debug */,
+				5B45269127B0762C0005F715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B45269227B0762C0005F715 /* Build configuration list for PBXNativeTarget "Appetiser Code Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B45269327B0762C0005F715 /* Debug */,
+				5B45269427B0762C0005F715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B45269527B0762C0005F715 /* Build configuration list for PBXNativeTarget "Appetiser Code ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B45269627B0762C0005F715 /* Debug */,
+				5B45269727B0762C0005F715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B45269827B0762C0005F715 /* Build configuration list for PBXNativeTarget "Appetiser Code ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B45269927B0762C0005F715 /* Debug */,
+				5B45269A27B0762C0005F715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B45267127B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B45267227B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodel */,
+			);
+			currentVersion = 5B45267227B0762A0005F715 /* Appetiser_Code_Challenge.xcdatamodel */;
+			path = Appetiser_Code_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B45265D27B0762A0005F715 /* Project object */;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AA0D63DD-B8A3-4F39-8D07-7562AA09F90B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B2F1C59-C6F2-47B1-8CEC-495C348206C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appetiser Code Challenge/TrackCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "hearButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7B2F1C59-C6F2-47B1-8CEC-495C348206C5 - b74f2f9e7311d3e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appetiser_Code_Challenge.TrackCell.hearButtonTapped(Appetiser_Code_Challenge.HeartButton) -&gt; ()"
+                  moduleName = "Appetiser Code Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariel.cabanag/Desktop/Appetiser%20Code%20Challenge/Appetiser%20Code%20Challenge/TrackCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7B2F1C59-C6F2-47B1-8CEC-495C348206C5 - b74f2f9e7311d3e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appetiser_Code_Challenge.TrackCell.hearButtonTapped(Appetiser_Code_Challenge.HeartButton) -&gt; ()"
+                  moduleName = "Appetiser Code Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariel.cabanag/Desktop/Appetiser%20Code%20Challenge/Appetiser%20Code%20Challenge/TrackCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "346F9F6C-A843-462D-92E4-081E03020DD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appetiser Code Challenge/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "update(trackModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
